@@ -1,0 +1,9 @@
+for i, v in pairs(getgc(true)) do
+	if typeof(v) == "table" and rawget(v, "GunType") then
+		rawset(v, "FireDelay", 0.001)
+        rawset(v, "GunFireType", "Automatic")
+        rawset(v, "Recoil", Vector3.new(0, 0, 0))
+        rawset(v, "ReloadDelay", 0.001)
+        rawset(v, "MaxRange", 9000)
+	end
+end
