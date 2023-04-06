@@ -14,7 +14,6 @@ local Services = {
     ["CoreGui"] = game:GetService("CoreGui"),
     ["Debris"] = game:GetService("Debris"),
     ["DebuggerManager"] = game:GetService("DebuggerManager"),
-    ["DraftsService"] = game:GetService("DraftsService"),
     ["DraggerService"] = game:GetService("DraggerService"),
     ["FilteredSelection"] = game:GetService("FilteredSelection"),
     ["FriendService"] = game:GetService("FriendService"),
